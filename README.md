@@ -1,7 +1,11 @@
 # Dedalus Kotlin API Library
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.dedalus_sdk.api/dedalus-kotlin)](https://central.sonatype.com/artifact/com.dedalus_sdk.api/dedalus-kotlin/0.0.1)
-[![javadoc](https://javadoc.io/badge2/com.dedalus_sdk.api/dedalus-kotlin/0.0.1/javadoc.svg)](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.1)
+<!-- x-release-please-start-version -->
+
+[![Maven Central](https://img.shields.io/maven-central/v/com.dedalus_sdk.api/dedalus-kotlin)](https://central.sonatype.com/artifact/com.dedalus_sdk.api/dedalus-kotlin/0.0.2)
+[![javadoc](https://javadoc.io/badge2/com.dedalus_sdk.api/dedalus-kotlin/0.0.2/javadoc.svg)](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.2)
+
+<!-- x-release-please-end -->
 
 The Dedalus Kotlin SDK provides convenient access to the [Dedalus REST API](https://docs.dedaluslabs.ai) from applications written in Kotlin.
 
@@ -16,14 +20,20 @@ Use the Dedalus MCP Server to enable AI assistants to interact with this API, al
 
 > Note: You may need to set environment variables in your MCP client.
 
-The REST API documentation can be found on [docs.dedaluslabs.ai](https://docs.dedaluslabs.ai). KDocs are available on [javadoc.io](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.1).
+<!-- x-release-please-start-version -->
+
+The REST API documentation can be found on [docs.dedaluslabs.ai](https://docs.dedaluslabs.ai). KDocs are available on [javadoc.io](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.2).
+
+<!-- x-release-please-end -->
 
 ## Installation
+
+<!-- x-release-please-start-version -->
 
 ### Gradle
 
 ```kotlin
-implementation("com.dedalus_sdk.api:dedalus-kotlin:0.0.1")
+implementation("com.dedalus_sdk.api:dedalus-kotlin:0.0.2")
 ```
 
 ### Maven
@@ -32,9 +42,11 @@ implementation("com.dedalus_sdk.api:dedalus-kotlin:0.0.1")
 <dependency>
   <groupId>com.dedalus_sdk.api</groupId>
   <artifactId>dedalus-kotlin</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
+
+<!-- x-release-please-end -->
 
 ## Requirements
 
@@ -795,4 +807,4 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/dedalus-sdk-kotlin/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/dedalus-labs/dedalus-sdk-kotlin/issues) with questions, bugs, or suggestions.
