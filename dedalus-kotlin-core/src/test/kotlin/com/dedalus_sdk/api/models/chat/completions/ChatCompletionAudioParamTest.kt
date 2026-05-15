@@ -1,0 +1,46 @@
+// File generated from our OpenAPI spec by Stainless.
+
+package com.dedalus_sdk.api.models.chat.completions
+
+import com.dedalus_sdk.api.core.jsonMapper
+import com.fasterxml.jackson.module.kotlin.jacksonTypeRef
+import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Test
+
+internal class ChatCompletionAudioParamTest {
+
+    @Test
+    fun create() {
+        val chatCompletionAudioParam =
+            ChatCompletionAudioParam.builder()
+                .format(ChatCompletionAudioParam.Format.WAV)
+                .voice(ChatCompletionAudioParam.Voice.UnionMember1.ALLOY)
+                .build()
+
+        assertThat(chatCompletionAudioParam.format()).isEqualTo(ChatCompletionAudioParam.Format.WAV)
+        assertThat(chatCompletionAudioParam.voice())
+            .isEqualTo(
+                ChatCompletionAudioParam.Voice.ofUnionMember1(
+                    ChatCompletionAudioParam.Voice.UnionMember1.ALLOY
+                )
+            )
+    }
+
+    @Test
+    fun roundtrip() {
+        val jsonMapper = jsonMapper()
+        val chatCompletionAudioParam =
+            ChatCompletionAudioParam.builder()
+                .format(ChatCompletionAudioParam.Format.WAV)
+                .voice(ChatCompletionAudioParam.Voice.UnionMember1.ALLOY)
+                .build()
+
+        val roundtrippedChatCompletionAudioParam =
+            jsonMapper.readValue(
+                jsonMapper.writeValueAsString(chatCompletionAudioParam),
+                jacksonTypeRef<ChatCompletionAudioParam>(),
+            )
+
+        assertThat(roundtrippedChatCompletionAudioParam).isEqualTo(chatCompletionAudioParam)
+    }
+}
