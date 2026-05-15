@@ -2,8 +2,8 @@
 
 <!-- x-release-please-start-version -->
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.dedalus_sdk.api/dedalus-kotlin)](https://central.sonatype.com/artifact/com.dedalus_sdk.api/dedalus-kotlin/0.0.1)
-[![javadoc](https://javadoc.io/badge2/com.dedalus_sdk.api/dedalus-kotlin/0.0.1/javadoc.svg)](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.1)
+[![Maven Central](https://img.shields.io/maven-central/v/com.dedalus_sdk.api/dedalus-kotlin)](https://central.sonatype.com/artifact/com.dedalus_sdk.api/dedalus-kotlin/0.0.2)
+[![javadoc](https://javadoc.io/badge2/com.dedalus_sdk.api/dedalus-kotlin/0.0.2/javadoc.svg)](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.2)
 
 <!-- x-release-please-end -->
 
@@ -22,7 +22,7 @@ Use the Dedalus MCP Server to enable AI assistants to interact with this API, al
 
 <!-- x-release-please-start-version -->
 
-The REST API documentation can be found on [docs.dedaluslabs.ai](https://docs.dedaluslabs.ai). KDocs are available on [javadoc.io](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.1).
+The REST API documentation can be found on [docs.dedaluslabs.ai](https://docs.dedaluslabs.ai). KDocs are available on [javadoc.io](https://javadoc.io/doc/com.dedalus_sdk.api/dedalus-kotlin/0.0.2).
 
 <!-- x-release-please-end -->
 
@@ -33,7 +33,7 @@ The REST API documentation can be found on [docs.dedaluslabs.ai](https://docs.de
 ### Gradle
 
 ```kotlin
-implementation("com.dedalus_sdk.api:dedalus-kotlin:0.0.1")
+implementation("com.dedalus_sdk.api:dedalus-kotlin:0.0.2")
 ```
 
 ### Maven
@@ -42,7 +42,7 @@ implementation("com.dedalus_sdk.api:dedalus-kotlin:0.0.1")
 <dependency>
   <groupId>com.dedalus_sdk.api</groupId>
   <artifactId>dedalus-kotlin</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
